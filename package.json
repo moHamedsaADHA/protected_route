@@ -1,0 +1,28 @@
+{
+	"name": "big-project",
+	"version": "1.0.0",
+	"main": "server.js",
+	"scripts": {
+		"test": "mocha tests/*.test.js --timeout 10000",
+		"start": "node server.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "commonjs",
+	"description": "",
+	"dependencies": {
+		"bcryptjs": "^3.0.2",
+		"cors": "^2.8.5",
+		"dotenv": "^16.4.7",
+		"express": "^4.21.2",
+		"jsonwebtoken": "^9.0.2",
+		"mongoose": "^8.10.1"
+	},
+	"devDependencies": {
+		"chai": "^5.2.0",
+		"mocha": "^11.1.0",
+		"nodemon": "^3.1.9",
+		"supertest": "^7.0.0"
+	}
+}
